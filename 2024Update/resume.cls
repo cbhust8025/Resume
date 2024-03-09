@@ -44,7 +44,7 @@
 \RequirePackage{enumitem}
 \setlist{noitemsep} % removes spacing from items but leaves space around the whole list
 %\setlist{nosep} % removes all vertical spacing within and around the list
-\setlist[itemize]{topsep=0.25em, leftmargin=1.5pc}
+\setlist[itemize]{topsep=0.25em, leftmargin=1.5pc, itemsep=0.3em}
 \setlist[enumerate]{topsep=0.25em, leftmargin=1.5pc}
 \RequirePackage[super]{nth}
 
@@ -120,6 +120,6 @@
 }
 
 \newcommand{\role}[2]{
-  {\par \textit{#1} ~ #2 \par}
+  {\par \textit{#1} ~ \textbf{#2} \par}
   \vspace{0.85ex}
 }
